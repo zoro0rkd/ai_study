@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+  color: #2e3a45;
+}
+#container {
+  display: flex;
+  height: 100vh;
+}
+#sidebar {
+  width: 220px;
+  background-color: #fff;
+  border-right: 1px solid #e0e0e0;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.05);
+  overflow-y: auto;
+}
+.qnum {
+  padding: 12px 16px;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 14px;
+  font-weight: 500;
+  color: #4e5d6c;
+  position: relative;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.qnum:hover { background-color: #f8fafc; }
+.qnum.answered::after {
+  content: '✓';
+  color: #fff;
+  background-color: #10b981;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+.qnum.review::before {
+  content: '⚑';
+  color: #fff;
+  background-color: #f59e0b;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  right: 36px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 10px;
+}
+#main {
+  flex: 1;
+  padding: 24px;
+  background-color: #fff;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+}
+#main label { display: flex; align-items: center; margin-bottom: 12px; font-size: 15px; }
+#main label input { margin-right: 8px; }
+#main p { margin: 12px 0; font-size: 16px; font-weight: 500; }
+textarea {
+  width: calc(100% - 16px);
+  margin-bottom: 16px;
+  padding: 8px;
+  border: 1px solid #d1d5db;
+  border-radius: 4px;
+  font-size: 14px;
+  resize: vertical;
+}
+.explanation {
+  border: 1px solid #d1d5db;
+  padding: 16px;
+  margin: 16px 0;
+  white-space: pre-wrap;
+  background-color: #f9fafb;
+  border-radius: 4px;
+}
+.explanation img { max-width: 100%; display: block; margin: 0 auto;
+}
+#footer {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+}
+#footer button {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+}
+#footer button:disabled {
+  background-color: #e5e7eb;
+  color: #9ca3af;
+  cursor: not-allowed;
+}
+#footer .prev { background-color: #3b82f6; color: #fff;
+}
+#footer .next, #footer .submit { background-color: #10b981; color: #fff;
+}
+#footer .next:only-child { margin-left: auto; }
