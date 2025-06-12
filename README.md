@@ -13,6 +13,7 @@
 ### 의존성 설치
 프로젝트 루트 디렉토리에서 다음 명령어 실행:
 ```bash
+npm init -y
 npm install express
 ```
 
