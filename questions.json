@@ -39,5 +39,70 @@
         "Few-Shot Learning"
       ],
       "textboxCount": 0
+    },
+    {
+      "type": "subjective",
+      "number": 11,
+      "question": "아래 그림은 어떤 네트워크의 구조를 나타낸 것이다. 그림을 참고하여 Residual Connection의 주된 역할을 영어로 작성하시오.",
+      "explanation": "images/Q11.png",
+      "choices": [
+      ],
+      "textboxCount": 1
+    },
+    {
+      "type": "objective",
+      "number": 12,
+      "question": "Transformer 인코더 블록의 주요 구성 요소가 아닌 것을 고르시오.",
+      "explanation": "",
+      "choices": [
+        "Multi-Head Attention",
+        "Position-wise Feed-Forward Network",
+        "Layer Normalization",
+        "Positional Encoding",
+        "Convolutional Layer"
+      ],
+      "textboxCount": 0
+    },
+    {
+      "type": "objective",
+      "number": 13,
+      "question": "다음 중 Surrogate Model의 설명으로 가장 적절한 것은?",
+      "explanation": "ㄱ. 원래 모델의 입력과 출력 간의 복잡한 관계를 근사하기 위해 단순 모델을 학습한다.\nㄴ. Surrogate Model은 항상 딥러닝 기반 모델로 설계된다.\nㄷ. 주로 모델의 해석 가능성(interpretability) 향상을 위해 사용된다.\nㄹ. Surrogate Model은 실제 모델의 성능(accuracy)을 직접 향상시키기 위해 훈련된다.\nㅁ. 선형 회귀, 의사결정나무 등 해석 가능한 모델이 사용될 수 있다.",
+      "choices": [
+        "ㄱ,ㄴ",
+        "ㄷ,ㄹ",
+        "ㄷ,ㅁ",
+        "ㄱ,ㄴ,ㅁ",
+        "ㄱ,ㄷ,ㅁ"
+      ],
+      "textboxCount": 0
+    },
+    {
+      "type": "objective",
+      "number": 14,
+      "question": "아래 그림에서 제안한 기법의 제약 사항으로 옳지 않은 것은?",
+      "explanation": "images/Q14.png",
+      "choices": [
+        "특징맵의 중요도는 모델의 손실함수 그래디언트가 아닌 완전연결 계층의 가중치로 산출된다.",
+        "모델 예측 시 Global Average Pooling(GAP) 레이어 이전의 특징맵만을 사용한다.",
+        "다양한 계층의 특징맵으로도 자유롭게 Class Activation Map을 생성할 수 있다.",
+        "입력 영상에서 분류 대상 객체의 위치 정보를 시각화한다.",
+        "CNN 기반 분류 모델에 특화된 모델-특정(Model-specific) XAI 기법이다."
+      ],
+      "textboxCount": 0
+    },
+    {
+      "type": "objective",
+      "number": 15,
+      "question": "다음 중 클래스 불균형이 심한 이진 분류 문제에서 Precision과 Recall의 조화를 가장 잘 나타내는 지표는?",
+      "explanation": "",
+      "choices": [
+        "Accuracy",
+        "Precision",
+        "Recall",
+        "F1-Score",
+        "ROC AUC"
+      ],
+      "textboxCount": 0
     }
   ]
