@@ -51,5 +51,13 @@
         "증강 없이 기존 데이터만으로 모델을 훈련시킨다."
       ],
       "textboxCount": 0
+    },
+    {
+      "type": "subjective",
+      "number": 6,
+      "question": "시계열 센서 데이터를 증강할 때 흔히 사용되는 기법 중, 신호에 약간의 무작위 잡음을 추가하여 학습 데이터를 다양화하는 방법을 무엇이라고 하나?",
+      "explanation": "Python code 예시\n\n import numpy as np \nnoisy_signal = original_signal + np.random.normal(0, 0.01, size=original_signal.shape)\n",
+      "choices": [],
+      "textboxCount": 1
     }
   ]
