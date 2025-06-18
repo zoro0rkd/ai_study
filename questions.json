@@ -59,5 +59,17 @@
       "explanation": "Python code 예시\n\n import numpy as np \nnoisy_signal = original_signal + np.random.normal(0, 0.01, size=original_signal.shape)\n",
       "choices": [],
       "textboxCount": 1
+    },
+    {
+      "type": "objective",
+      "number": 7,
+      "question": "[데이터 증강/클래스간 불균형] 고객 불만 텍스트를 분류하는 자연어 처리(NLP) 프로젝트에서 고객 불만 분류 모델은 약 3,000개의 텍스트 샘플만 있으며, '배송 지연' 클래스의 샘플이 전체의 70% 이상을 차지합니다.\n 다음 중 텍스트 데이터의 불균형을 완화하기 위한 데이터 증강 전략으로 적절하지 않은 것은 무엇인가?",
+      "choices": [
+        "'배송 지연' 외 클래스 문장을 대상으로 Back Translation을 수행한다.",
+        "의미가 크게 바뀌지 않도록 Synonym Replacement를 사용해 새로운 샘플을 생성한다.",
+        "'배송 지연' 클래스의 문장을 무작위로 복제하여 데이터셋에 추가한다.",
+        "Easy Data Augmentation(EDA)을 적용하여 소수 클래스 데이터를 다양화한다."
+      ],
+      "textboxCount": 0
     }
   ]
