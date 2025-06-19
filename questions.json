@@ -163,4 +163,79 @@
       ],
       "textboxCount": 0
     }
+
+  
+  {
+    "type": "objective",
+    "number": 21,
+    "question": "다음 중 Blue/Green 배포 전략에 대한 설명으로 옳지 않은 것을 고르시오.",
+    "choices": [
+      "① 두 개의 독립된 환경을 번갈아 가며 트래픽을 전환하므로 롤백이 용이하다.",
+      "② 새 버전(Blue)에서 장애가 발생해도 기존 버전(Green)은 중단 없이 서비스를 유지한다.",
+      "③ 배포 시 두 환경이 동시에 외부 트래픽을 처리해 전체 처리량이 증가한다.",
+      "④ 무중단(Zero-downtime) 배포를 지원하나, 두 환경을 동시에 운영해야 하므로 인프라 비용이 늘 수 있다.",
+      "⑤ Blue 환경을 운영 중인 동안 Green 환경에서 안정성 테스트를 수행할 수 있다."
+    ],
+    "explanation": "정답: ③. Blue/Green 전략은 전환 시점에 하나의 환경만 외부 트래픽을 받도록 하므로 두 환경이 동시에 전체 트래픽을 처리하지 않는다.",
+    "textboxCount": 0
+  },
+  {
+    "type": "objective",
+    "number": 22,
+    "question": "모델 서빙 아키텍처로 Serverless inference를 사용할 때 장점에 해당하지 않는 것은?",
+    "choices": [
+      "① 수요 변동에 따라 컴퓨팅 자원을 자동으로 스케일링한다.",
+      "② 요청이 없으면 리소스를 할당하지 않아 비용이 절감될 수 있다.",
+      "③ 장기 실행되는 상태 저장(Stateful) 추론에 최적화되어 있다.",
+      "④ 관리형 플랫폼이 런타임 패치를 제공하므로 운영 부담이 줄어든다.",
+      "⑤ 동시 요청이 급증해도 프로비저닝 지연을 최소화하도록 설계되었다."
+    ],
+    "explanation": "정답: ③. Serverless는 짧고 무상태(Stateless) 작업에 강점을 가지며, 상태 저장 장기 추론에는 적합하지 않다.",
+    "textboxCount": 0
+  },
+  {
+    "type": "objective",
+    "number": 23,
+    "question": "다음 중 경량화 기법과 직접적인 관련이 가장 적은 조합을 고르시오.",
+    "choices": [
+      "① Depthwise Separable Convolution － 연산량 감소",
+      "② Knowledge Distillation － 학생-교사 구조",
+      "③ Label Smoothing － 매개변수 수 축소",
+      "④ Quantization － 정수 연산 활용",
+      "⑤ Structured Pruning － 채널 단위 가중치 제거"
+    ],
+    "explanation": "정답: ③. Label Smoothing은 출력 분포 평활화를 위한 정규화 기법으로 모델의 크기나 연산량을 줄이지 않는다.",
+    "textboxCount": 0
+  },
+  {
+    "type": "objective",
+    "number": 24,
+    "question": "Retrieval-Augmented Generation (RAG) 파이프라인의 주요 구성 요소에 해당하지 않는 것은?",
+    "choices": [
+      "① 외부 지식베이스를 인덱싱하는 임베딩 파이프라인",
+      "② 밀집 벡터 간 유사도 검색을 수행하는 Retriever",
+      "③ 원문을 LLM 입력에 삽입하는 Context Assembler",
+      "④ 생성 결과의 사실성을 검증하기 위한 Post-hoc Fact-Checker",
+      "⑤ 사전 훈련 단계에서 매개변수 효율을 높이기 위한 LoRA Adaptor"
+    ],
+    "explanation": "정답: ⑤. LoRA Adaptor는 파라미터 효율적 미세조정 기술로 RAG 파이프라인의 핵심 모듈은 아니다.",
+    "textboxCount": 0
+  },
+  {
+    "type": "objective",
+    "number": 25,
+    "question": "멀티모달 LLM 학습 접근법 (가)와 (나)를 <보기>와 올바르게 짝지은 것을 고르시오.\n\n(가) Vision Encoder와 Text Decoder를 결합해 이미지→텍스트 생성 능력을 강조한다.\n(나) Cross-attention 레이어를 다중 모달 입력 사이에 삽입해 동시 추론을 수행한다.\n\n<보기>\nA. Autoregressive Image Captioning\nB. Contrastive Language-Image Pre-training(CLIP)\nC. Multimodal Fusion Transformer\nD. Diffusion-based Latent Blending",
+    "choices": [
+      "① (가)-A (나)-C",
+      "② (가)-B (나)-A",
+      "③ (가)-C (나)-B",
+      "④ (가)-D (나)-A",
+      "⑤ (가)-B (나)-D"
+    ],
+    "explanation": "정답: ①. (가)는 이미지 캡셔닝 기반 Autoregressive 방식(A), (나)는 Cross-attention을 활용한 Multimodal Fusion Transformer(C)에 해당한다.",
+    "textboxCount": 0
+  }
+
+
+
   ]
