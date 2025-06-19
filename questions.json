@@ -1,166 +1,160 @@
 [
-    {
-      "type": "objective",
-      "number": 1,
-      "question": "AI 분야에서 머신러닝과 딥러닝의 주요 차이점은 무엇인가?",
-      "choices": [
-        "모델 크기",
-        "데이터 양",
-        "신경망의 유무",
-        "학습 속도",
-        "정확도"
-      ],
-      "textboxCount": 0
-    },
-    {
-      "type": "subjective",
-      "number": 2,
-      "question": "보기에 알맞은 단어는?",
-      "explanation": "A)는 기계 학습 분야의 한 방법으로, 모델이 훈련 중에 본 적 없는 데이터나 클래스에 대해\n예측을 수행할 수 있도록 하는 기술이다. 이 기법은 특히 데이터 레이블링 비용이 많이 들거나,\n실제 환경에서 예측해야 할 클래스가 훈련 데이터에 모두 포함되지 않는 경우에 유용하다.\n최근에는 (A)의 확장된 형태인 Generalized (A)를 활용하는 방법이 주목받고 있다. 이 방법은\n모델이 훈련 중에 본 적 있는 클래스와 본 적 없는 클래스를 동시에 인식할 수 있도록 설계된\n기법이다. Generalized (A)는 더욱 실용적인 시나리오에서의 활용성을 고려하여 개발되었으며,\n실제 환경의 응용에서 더욱 현실적인 문제를 해결하는데 도움을 준다.",
-      "textboxCount": 2
-    },
-    {
-      "type": "essay",
-      "number": 3,
-      "question": "AI 기술 발전이 사회 구조에 미치는 영향에 대해 서술하시오.",
-      "choices": [],
-      "textboxCount": 1
-    },
-    {
-      "type": "objective",
-      "number": 4,
-      "question": "다음 설명에 해당하는 AI 기술은 무엇인가?",
-      "explanation": "images/Q4.png",
-      "choices": [
-        "Zero-Shot Learning",
-        "Transfer Learning",
-        "Reinforcement Learning",
-        "Unsupervised Learning",
-        "Few-Shot Learning"
-      ],
-      "textboxCount": 0
-    },
-    {
-      "type": "subjective",
-      "number": 11,
-      "question": "아래 그림은 어떤 네트워크의 구조를 나타낸 것이다. 그림을 참고하여 Residual Connection의 주된 역할을 영어로 작성하시오.",
-      "explanation": "images/Q11.png",
-      "choices": [
-      ],
-      "textboxCount": 1
-    },
-    {
-      "type": "objective",
-      "number": 12,
-      "question": "Transformer 인코더 블록의 주요 구성 요소가 아닌 것을 고르시오.",
-      "explanation": "",
-      "choices": [
-        "Multi-Head Attention",
-        "Position-wise Feed-Forward Network",
-        "Layer Normalization",
-        "Positional Encoding",
-        "Convolutional Layer"
-      ],
-      "textboxCount": 0
-    },
-    {
-      "type": "objective",
-      "number": 13,
-      "question": "다음 중 Surrogate Model의 설명으로 가장 적절한 것은?",
-      "explanation": "ㄱ. 원래 모델의 입력과 출력 간의 복잡한 관계를 근사하기 위해 단순 모델을 학습한다.\nㄴ. Surrogate Model은 항상 딥러닝 기반 모델로 설계된다.\nㄷ. 주로 모델의 해석 가능성(interpretability) 향상을 위해 사용된다.\nㄹ. Surrogate Model은 실제 모델의 성능(accuracy)을 직접 향상시키기 위해 훈련된다.\nㅁ. 선형 회귀, 의사결정나무 등 해석 가능한 모델이 사용될 수 있다.",
-      "choices": [
-        "ㄱ,ㄴ",
-        "ㄷ,ㄹ",
-        "ㄷ,ㅁ",
-        "ㄱ,ㄴ,ㅁ",
-        "ㄱ,ㄷ,ㅁ"
-      ],
-      "textboxCount": 0
-    },
-    {
-      "type": "objective",
-      "number": 14,
-      "question": "아래 그림에서 제안한 기법의 제약 사항으로 옳지 않은 것은?",
-      "explanation": "images/Q14.png",
-      "choices": [
-        "특징맵의 중요도는 모델의 손실함수 그래디언트가 아닌 완전연결 계층의 가중치로 산출된다.",
-        "모델 예측 시 Global Average Pooling(GAP) 레이어 이전의 특징맵만을 사용한다.",
-        "다양한 계층의 특징맵으로도 자유롭게 Class Activation Map을 생성할 수 있다.",
-        "입력 영상에서 분류 대상 객체의 위치 정보를 시각화한다.",
-        "CNN 기반 분류 모델에 특화된 모델-특정(Model-specific) XAI 기법이다."
-      ],
-      "textboxCount": 0
-    },
-    {
-      "type": "objective",
-      "number": 15,
-      "question": "다음 중 클래스 불균형이 심한 이진 분류 문제에서 Precision과 Recall의 조화를 가장 잘 나타내는 지표는?",
-      "explanation": "",
-      "choices": [
-        "Accuracy",
-        "Precision",
-        "Recall",
-        "F1-Score",
-        "ROC AUC"
-      ],
-      "textboxCount": 0
-    },
-    {
-      "type": "objective",
-      "number": 16,
-      "question": "[AI 모델 학습 및 평가] 딥러닝 모델 학습시 과적합(overfitting) 현상이 발생했다고 판단할 때, 이를 방지하기 위한 적절한 조치로 알맞은 것을 모두 고른 것은?",
-      "choices": [
-        "ㄱ, ㄷ",
-        "ㄴ, ㄷ",
-        "ㄱ, ㄴ",
-        "ㄱ, ㄹ",
-        "ㄴ, ㄹ"
-      ],
-      "explanation": "<보기>\n ㄱ. 학습 데이터의 수를 증가시킨다\n ㄴ. L2 정규화를 도입하여 가중치 크기를 제한한다\n ㄷ. 모델의 파라미터 수를 늘려 복잡도를 증가시킨다\n ㄹ. Dropout 레이어를 추가하여 일부 뉴런을 무작위로 비활성화한다",
-      "textboxCount": 0
-    },
-    {
-      "type": "objective",
-      "number": 17,
-      "question": "[AI 모델 학습 및 평가] 다음은 분류 모델의 성능 평가를 위한 지표이다. 보안 시스템에서 실제 침입자를 놓치지 않는 것이 가장 중요한 경우, 다음 중 가장 적절한 평가 지표는 무엇인가?",
-      "choices": [
-        "정확도(Accuracy)",
-        "정밀도(Precision)",
-        "재현율(Recall)",
-        "F1 점수(F1 Score)"
-      ],
-      "textboxCount": 0
-    },
-    {
-      "type": "essay",
-      "number": 18,
-      "question": "AI 모델을 학습할 때, 과적합(overfitting) 과 과소적합(underfitting) 은 모두 성능 저하의 원인이 된다. 과적합과 과소적합의 차이를 설명하고, 각각의 상황에서 어떤 해결 방법을 적용할 수 있는지 서술하시오.",
-      "choices": [],
-      "textboxCount": 1
-    },
-    {
-      "type": "objective",
-      "number": 19,
-      "question": "[AI 모델 튜닝] 다음 중 하이퍼파라미터 튜닝 기법에 해당하는 설명으로 옳지 않은 것은 무엇인가?",
-      "choices": [
-        "ㄱ",
-        "ㄴ",
-        "ㄷ",
-        "ㄹ"
-      ],
-      "explanation": "<보기> \n ㄱ. Grid Search는 미리 정해진 하이퍼파라미터 조합 전체를 순차적으로 탐색하는 방식이다. \n ㄴ. Random Search는 전체 조합을 모두 평가하기 때문에 연산 효율은 떨어지지만, 항상 최적 성능을 보장한다. \n ㄷ. 베이지안 최적화는 이전 결과를 기반으로 다음 후보를 선택해 효율적인 탐색을 수행한다. \nㄹ. Hyperband는 early stopping을 결합하여 자원 낭비를 줄이고 빠른 튜닝을 가능하게 한다.",
-      "textboxCount": 0
-    },
-    {
-      "type": "objective",
-      "number": 20,
-      "question": "[AI 모델 튜닝] 딥러닝 모델의 하이퍼파라미터 중 학습률(learning rate)에 대한 설명으로 가장 적절한 것을 고르시오.",
-      "choices": [
-        "학습률이 너무 높으면 손실 함수의 지역 최솟값에 빠질 위험이 높아진다.",
-        "학습률이 너무 낮으면 모델이 빠르게 수렴하고 과적합이 발생할 수 있다.",
-        "학습률이 너무 높으면 손실 함수가 발산하거나 수렴하지 않을 수 있다.",
-        "학습률은 일반적으로 고정된 값으로 설정하며, 학습 도중에 변경해서는 안 된다."
-      ],
-      "textboxCount": 0
-    }
-  ]
+  {
+    "type": "objective",
+    "number": 1,
+    "question": "AI 분야에서 머신러닝과 딥러닝의 주요 차이점은 무엇인가?",
+    "choices": [
+      "모델 크기",
+      "데이터 양",
+      "신경망의 유무",
+      "학습 속도",
+      "정확도"
+    ],
+    "textboxCount": 0
+  },
+  {
+    "type": "subjective",
+    "number": 2,
+    "question": "보기에 알맞은 단어는?",
+    "explanation": "A)는 기계 학습 분야의 한 방법으로, 모델이 훈련 중에 본 적 없는 데이터나 클래스에 대해\n예측을 수행할 수 있도록 하는 기술이다. 이 기법은 특히 데이터 레이블링 비용이 많이 들거나,\n실제 환경에서 예측해야 할 클래스가 훈련 데이터에 모두 포함되지 않는 경우에 유용하다.\n최근에는 (A)의 확장된 형태인 Generalized (A)를 활용하는 방법이 주목받고 있다. 이 방법은\n모델이 훈련 중에 본 적 있는 클래스와 본 적 없는 클래스를 동시에 인식할 수 있도록 설계된\n기법이다. Generalized (A)는 더욱 실용적인 시나리오에서의 활용성을 고려하여 개발되었으며,\n실제 환경의 응용에서 더욱 현실적인 문제를 해결하는데 도움을 준다.",
+    "textboxCount": 2
+  },
+  {
+    "type": "essay",
+    "number": 3,
+    "question": "AI 기술 발전이 사회 구조에 미치는 영향에 대해 서술하시오.",
+    "choices": [],
+    "textboxCount": 1
+  },
+  {
+    "type": "objective",
+    "number": 4,
+    "question": "다음 설명에 해당하는 AI 기술은 무엇인가?",
+    "explanation": "images/Q4.png",
+    "choices": [
+      "Zero-Shot Learning",
+      "Transfer Learning",
+      "Reinforcement Learning",
+      "Unsupervised Learning",
+      "Few-Shot Learning"
+    ],
+    "textboxCount": 0
+  },
+  {
+    "type": "subjective",
+    "number": 11,
+    "question": "다음 문단은 앙상블 및 모델 결합 전략을 설명한 것이다. 괄호 (A) ~ (C) 에 들어갈 알맞은 용어를 〈보기〉에서 골라 순서대로 각각 쓰시오.",
+    "choices": [],
+    "explanation": "모델의 일반화 성능을 향상하고 편차와 분산을 동시에 완화하려면, 여러 개 모델을 조합하는 앙상블 접근이 효과적이다. 먼저 (A) 은/는 훈련 데이터를 여러 부트스트랩 샘플로 나눠 각각의 독립 모델을 학습한 뒤 평균이나 다수결로 예측을 통합해 분산을 줄인다. 반대로 (B) 은/는 이전 모델이 놓친 “어려운” 샘플에 가중치를 더해 모델을 순차적으로 학습함으로써 편차를 축소한다. 한편 (C) 은/는 여러 기본 학습기의 출력을 메타-모델의 입력으로 사용해 비선형 방식으로 조합, 개별 모델보다 높은 표현력을 얻는다.\n〈보기〉\n ㄱ. Random Subspace Method\n ㄴ. Boosting\n ㄷ. Voting Ensemble\n ㄹ. Snapshot Ensemble\n ㅁ. Knowledge Distillation\n ㅂ. Stacking\n ㅅ. Blending\n ㅇ. Bayesian Model Averaging\n ㅈ. Bagging",
+    "textboxCount": 3
+  },
+  {
+    "type": "objective",
+    "number": 12,
+    "question": "딥러닝 모델을 훈련할 때 GPU 메모리가 초과(OOM)되는 상황을 줄이기 위해 고안된 아키텍처 설계/훈련 전략에 관한 다음 설명을 읽고, 옳은 것만을 모두 고르시오.",
+    "explanation": "ㄱ.  Reversible Residual Layer (예: Reformer, RevNet)을 사용하면 순전파 단계의 모든 중간 활성값을 저장할 필요가 없으므로,  활성 메모리 사용량 을 크게 줄여 OOM을 완화할 수 있다. \nㄴ.Transformer의 Feed-Forward Network(FFN) 은닉 차원을 2 배 이상 키우면, 동일 배치 크기에서 필요한 TPU/GPU 메모리가 감소해 OOM 위험이 줄어든다.\nㄷ. Linformer 는 Self-Attention 행렬을 저차원(k)으로 근사해 O(n^2)이던 메모리·연산량을 O(nk)로 낮추므로,  초장문(long sequence) 학습 시  메모리 폭증 문제를 완화한다.\nㄹ. Zero Redundancy Optimizer (ZeRO)  Stage-2는 파라미터와 옵티마이저 상태를 각 GPU에  중복  저장하므로, 장치별 메모리 사용량이 오히려 증가해 OOM을 악화시킨다.",
+    "choices": [
+      "ㄱ,ㄴ",
+      "ㄱ,ㄷ",
+      "ㄴ,ㄷ",
+      "ㄱ,ㄷ,ㄹ",
+      "ㄱ,ㄴ,ㄹ"
+    ],
+    "textboxCount": 0
+  },
+  {
+    "type": "objective",
+    "number": 13,
+    "question": "다음은 모델 투명성 관련 개념을 서술한 것이다. 이 중 설명 가능성(Explainability)에 해당하는 내용만을 모두 고른 것은?",
+    "explanation": "ㄱ. 깊이가 얕은 의사결정나무(decision tree)는 분기 경로를 그대로 확인할 수 있어 모델 동작을 수학적으로 투명하게 해 준다.\nㄴ. LIME·SHAP 기법은 각 입력 특성이 예측에 기여한 정도를 수치·시각으로 제시해 사용자가 “왜 이런 결과가 나왔는지”를 이해하도록 돕는다.\nㄷ. 희소(sparse) 선형 모델은 계수를 직접 열람할 수 있으므로 전역 수준에서 특성-가중치 관계를 해석하기 쉽다.\nㄹ. Counterfactual Explanation은 출력이 바뀌도록 입력을 최소한으로 수정한 예시를 제시해, 사용자가 결정을 바꿀 ‘행동 가능’ 단서를 제공한다.",
+    "choices": [
+      "ㄱ,ㄴ",
+      "ㄱ,ㄷ",
+      "ㄴ,ㄷ",
+      "ㄴ,ㄹ",
+      "ㄱ,ㄴ,ㄹ"
+    ],
+    "textboxCount": 0
+  },
+  {
+    "type": "objective",
+    "number": 14,
+    "question": "다음은 그림은 NLP 모델을 설명 가능하게 분석하는 방법 중 하나이다.<보기> 중 해당 모델에 대한 설명으로 옳은 것을 모두 고른것은?",
+    "explanation": "images/Q14.png",
+    "choices": [
+      "ㄱ,ㄴ",
+      "ㄱ,ㄷ",
+      "ㄴ,ㄷ",
+      "ㄱ,ㄷ,ㄹ",
+      "ㄱ,ㄴ,ㄹ"
+    ],
+    "textboxCount": 0
+  },
+  {
+    "type": "objective",
+    "number": 15,
+    "question": "다음은 여러 번 데이터셋을 나누어 모델을 학습‧평가하는 방법에 대한 설명이다. 옳은 설명만을 모두 고르시오.",
+    "explanation": "images/Q15.png",
+    "choices": [
+      "ㄱ,ㄴ",
+      "ㄱ,ㅁ",
+      "ㄴ,ㄷ",
+      "ㄹ,ㅁ",
+      "ㄱ,ㄴ,ㅁ"
+    ],
+    "textboxCount": 0
+  },
+  {
+    "type": "subjective",
+    "number": 16,
+    "question": "다음 문단은 앙상블 및 모델 결합 전략을 설명한 것이다. 괄호 (A) ~ (C) 에 들어갈 알맞은 용어를 〈보기〉에서 골라 순서대로 각각 쓰시오.",
+    "choices": [],
+    "explanation": "모델의 일반화 성능을 향상하고 편차와 분산을 동시에 완화하려면, 여러 개 모델을 조합하는 앙상블 접근이 효과적이다. 먼저 (A) 은/는 훈련 데이터를 여러 부트스트랩 샘플로 나눠 각각의 독립 모델을 학습한 뒤 평균이나 다수결로 예측을 통합해 분산을 줄인다. 반대로 (B) 은/는 이전 모델이 놓친 “어려운” 샘플에 가중치를 더해 모델을 순차적으로 학습함으로써 편차를 축소한다. 한편 (C) 은/는 여러 기본 학습기의 출력을 메타-모델의 입력으로 사용해 비선형 방식으로 조합, 개별 모델보다 높은 표현력을 얻는다.\n〈보기〉\n ㄱ. Random Subspace Method\n ㄴ. Boosting\n ㄷ. Voting Ensemble\n ㄹ. Snapshot Ensemble\n ㅁ. Knowledge Distillation\n ㅂ. Stacking\n ㅅ. Blending\n ㅇ. Bayesian Model Averaging\n ㅈ. Bagging",
+    "textboxCount": 3
+  },
+  {
+    "type": "objective",
+    "number": 17,
+    "question": "딥러닝 모델을 훈련할 때 GPU 메모리가 초과(OOM)되는 상황을 줄이기 위해 고안된 아키텍처 설계/훈련 전략에 관한 다음 설명을 읽고, 옳은 것만을 모두 고르시오.\n ",
+    "choices": [
+      "ㄱ,ㄴ",
+      "ㄱ,ㄷ",
+      "ㄴ,ㄷ",
+      "ㄱ,ㄷ,ㄹ",
+      "ㄱ,ㄴ,ㄹ"
+    ],
+    "textboxCount": 0
+  },
+  {
+    "type": "essay",
+    "number": 18,
+    "question": "AI 모델을 학습할 때, 과적합(overfitting) 과 과소적합(underfitting) 은 모두 성능 저하의 원인이 된다. 과적합과 과소적합의 차이를 설명하고, 각각의 상황에서 어떤 해결 방법을 적용할 수 있는지 서술하시오.",
+    "choices": [],
+    "textboxCount": 1
+  },
+  {
+    "type": "objective",
+    "number": 19,
+    "question": "[AI 모델 튜닝] 다음 중 하이퍼파라미터 튜닝 기법에 해당하는 설명으로 옳지 않은 것은 무엇인가?",
+    "choices": [
+      "ㄱ",
+      "ㄴ",
+      "ㄷ",
+      "ㄹ"
+    ],
+    "explanation": "<보기> \n ㄱ. Grid Search는 미리 정해진 하이퍼파라미터 조합 전체를 순차적으로 탐색하는 방식이다. \n ㄴ. Random Search는 전체 조합을 모두 평가하기 때문에 연산 효율은 떨어지지만, 항상 최적 성능을 보장한다. \n ㄷ. 베이지안 최적화는 이전 결과를 기반으로 다음 후보를 선택해 효율적인 탐색을 수행한다. \nㄹ. Hyperband는 early stopping을 결합하여 자원 낭비를 줄이고 빠른 튜닝을 가능하게 한다.",
+    "textboxCount": 0
+  },
+  {
+    "type": "objective",
+    "number": 20,
+    "question": "[AI 모델 튜닝] 딥러닝 모델의 하이퍼파라미터 중 학습률(learning rate)에 대한 설명으로 가장 적절한 것을 고르시오.",
+    "choices": [
+      "학습률이 너무 높으면 손실 함수의 지역 최솟값에 빠질 위험이 높아진다.",
+      "학습률이 너무 낮으면 모델이 빠르게 수렴하고 과적합이 발생할 수 있다.",
+      "학습률이 너무 높으면 손실 함수가 발산하거나 수렴하지 않을 수 있다.",
+      "학습률은 일반적으로 고정된 값으로 설정하며, 학습 도중에 변경해서는 안 된다."
+    ],
+    "textboxCount": 0
+  }
+]
