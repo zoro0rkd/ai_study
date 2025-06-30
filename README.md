@@ -69,7 +69,7 @@ online-test/
 - **number**: 고유 문제 번호  
 - **question**: 화면에 표시할 질문 텍스트  
 - **choices**: 객관식 보기 배열  
-- **explanation**: 추가 설명(텍스트) 또는 이미지 경로  
+- **explanations**: 추가 설명(텍스트) 또는 이미지 경로 배열
 - **textboxCount**: 텍스트박스 개수  
 
 ---
