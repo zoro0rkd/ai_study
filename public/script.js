@@ -44,17 +44,21 @@
     p.textContent = q.question;
     main.appendChild(p);
 
-    // 설명 또는 이미지
-    if (q.explanation) {
+    // 설명 또는 이미지 배열 처리
+    if (Array.isArray(q.explanations) && q.explanations.length > 0) {
       const div = document.createElement('div');
-      div.className = 'explanation';
-      if (/\.(png|jpe?g|gif)$/i.test(q.explanation)) {
-        const img = document.createElement('img');
-        img.src = q.explanation;
-        div.appendChild(img);
-      } else {
-        div.textContent = q.explanation;
-      }
+      div.className = 'explanations';
+      q.explanations.forEach(item => {
+        if (/\.(png|jpe?g|gif)$/i.test(item)) {
+          const img = document.createElement('img');
+          img.src = item;
+          div.appendChild(img);
+        } else {
+          const p = document.createElement('p');
+          p.textContent = item;
+          div.appendChild(p);
+        }
+      });
       main.appendChild(div);
     }
 
@@ -62,7 +66,7 @@
     if (q.type === 'objective') {
       q.choices.forEach((c, i) => {
         const lbl = document.createElement('label');
-        lbl.innerHTML = `<input type="radio" name="q${q.number}" value="${i}"/> ${i+1}. ${c}`;
+        lbl.innerHTML = `<input type=\"radio\" name=\"q${q.number}\" value=\"${i}\"/> ${i+1}. ${c}`;
         const input = lbl.querySelector('input');
         input.checked = answers[q.number] == i;
         input.onchange = () => {
@@ -112,7 +116,6 @@
       btnSubmit.className = 'submit';
       btnSubmit.onclick = submitAnswers;
       footer.appendChild(btnSubmit);
-      
     }
 
     main.appendChild(footer);

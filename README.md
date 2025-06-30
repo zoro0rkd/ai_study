@@ -39,21 +39,25 @@ online-test/
 
 ## `questions.json` 구조
 
-`questions.json` 은 JSON 배열 형태이며, 각 문항 객체는 다음 키를 가집니다:
+`questions.json`은 JSON 배열 형태이며, 각 문항 객체는 다음 키를 가집니다:
 
 ```json
 [
   {
-    "type": "objective",   // 문제 유형: "objective" | "subjective" | "essay"
-    "number": 1,           // 문제 번호 (정수)
-    "question": "...",     // 질문 본문 (문자열)
-    "choices": [           // 객관식 선택지 배열, 주관식/서술형 시 빈 배열
+    "type": "objective",       // 문제 유형: "objective" | "subjective" | "essay"
+    "number": 1,               // 문제 번호 (정수)
+    "question": "...",         // 질문 본문 (문자열)
+    "choices": [               // 객관식 선택지 배열, 주관식/서술형 시 빈 배열
       "보기1",
       "보기2",
       "보기3"
     ],
-    "explanation": "...",  // (옵션) 추가 설명 텍스트 또는 `images/파일명` 형태의 이미지 경로
-    "textboxCount": 0      // 텍스트박스 개수 (주관식/서술형)
+    "explanations": [          // (옵션) 추가 설명 배열. 각 요소는 텍스트 또는 `images/파일명` 형태의 이미지 경로
+      "추가 설명 텍스트 1",
+      "images/예시.png",
+      "추가 설명 텍스트 2"
+    ],
+    "textboxCount": 0          // 텍스트박스 개수 (주관식/서술형)
   }
 ]
 ```

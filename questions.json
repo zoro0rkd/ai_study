@@ -16,7 +16,7 @@
       "type": "subjective",
       "number": 2,
       "question": "보기에 알맞은 단어는?",
-      "explanation": "A)는 기계 학습 분야의 한 방법으로, 모델이 훈련 중에 본 적 없는 데이터나 클래스에 대해\n예측을 수행할 수 있도록 하는 기술이다. 이 기법은 특히 데이터 레이블링 비용이 많이 들거나,\n실제 환경에서 예측해야 할 클래스가 훈련 데이터에 모두 포함되지 않는 경우에 유용하다.\n최근에는 (A)의 확장된 형태인 Generalized (A)를 활용하는 방법이 주목받고 있다. 이 방법은\n모델이 훈련 중에 본 적 있는 클래스와 본 적 없는 클래스를 동시에 인식할 수 있도록 설계된\n기법이다. Generalized (A)는 더욱 실용적인 시나리오에서의 활용성을 고려하여 개발되었으며,\n실제 환경의 응용에서 더욱 현실적인 문제를 해결하는데 도움을 준다.",
+      "explanations": ["A)는 기계 학습 분야의 한 방법으로, 모델이 훈련 중에 본 적 없는 데이터나 클래스에 대해\n예측을 수행할 수 있도록 하는 기술이다. 이 기법은 특히 데이터 레이블링 비용이 많이 들거나,\n실제 환경에서 예측해야 할 클래스가 훈련 데이터에 모두 포함되지 않는 경우에 유용하다.\n최근에는 (A)의 확장된 형태인 Generalized (A)를 활용하는 방법이 주목받고 있다. 이 방법은\n모델이 훈련 중에 본 적 있는 클래스와 본 적 없는 클래스를 동시에 인식할 수 있도록 설계된\n기법이다. Generalized (A)는 더욱 실용적인 시나리오에서의 활용성을 고려하여 개발되었으며,\n실제 환경의 응용에서 더욱 현실적인 문제를 해결하는데 도움을 준다."],
       "textboxCount": 2
     },
     {
@@ -29,14 +29,17 @@
     {
       "type": "objective",
       "number": 4,
-      "question": "다음 설명에 해당하는 AI 기술은 무엇인가?",
-      "explanation": "images/Q4.png",
+      "question": "다음 설명에 해당하는 AI 기술에 대한 설명으로 맞는 것은",
+      "explanations": ["images/Q4.png",
+      "ㄱ.",
+      "ㄴ.ㅂㅈㄷㄱㄴㅁㅇ펑훚ㅂ대거ㅑㅈ볻ㄴㅇ",
+      "ㄷ.ㅁㄴㅇㄹㅁㅇㄹ"],
       "choices": [
-        "Zero-Shot Learning",
-        "Transfer Learning",
-        "Reinforcement Learning",
-        "Unsupervised Learning",
-        "Few-Shot Learning"
+        "ㄱ",
+        "ㄱ,ㄴ,ㄷ",
+        "ㄴ,ㄹ",
+        "ㄷ,ㄹ",
+        "없음"
       ],
       "textboxCount": 0
     },
@@ -57,7 +60,7 @@
       "type": "subjective",
       "number": 6,
       "question": "시계열 센서 데이터를 증강할 때 흔히 사용되는 기법 중, 신호에 약간의 무작위 잡음을 추가하여 학습 데이터를 다양화하는 방법을 무엇이라고 하나?",
-      "explanation": "Python code 예시\n\n import numpy as np \nnoisy_signal = original_signal + np.random.normal(0, 0.01, size=original_signal.shape)\n",
+      "explanations": ["Python code 예시\n\n import numpy as np \nnoisy_signal = original_signal + np.random.normal(0, 0.01, size=original_signal.shape)\n"],
       "choices": [],
       "textboxCount": 1
     },
@@ -78,7 +81,7 @@
       "type": "subjective",
       "number": 8,
       "question": "우리 팀은 수천 개의 보안 카메라 영상을 기반으로 이상 행동 탐지 AI 모델을 개발하고 있다.\n 기존에는 단일 프레임(이미지) 기반 CNN 모델로 분류하고 있었으나, **이상 행동은 보통 '움직임의 패턴'**에 따라 판단된다는 현장의 피드백이 있었다.\n 시간 흐름에 따른 움직임 패턴까지 고려하여 이상 행동 탐지를 정확히 수행할 수 있는 모델 아키텍처로 가장 적합한 것은 무엇인가?",
-      "explanation": "시간적 연속성을 고려하여 움직임 패턴을 분석할 수 있는 모델 아키텍처를 요구한다.\n (HINT) **시계열적 특성(time series)**과 **공간적 특성(spatial features)**을 함께 학습할 수 있는 모델",
+      "explanations": ["시간적 연속성을 고려하여 움직임 패턴을 분석할 수 있는 모델 아키텍처를 요구한다.\n (HINT) **시계열적 특성(time series)**과 **공간적 특성(spatial features)**을 함께 학습할 수 있는 모델"],
       "choices": [],
       "textboxCount": 1
     }
