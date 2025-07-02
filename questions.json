@@ -125,20 +125,7 @@
   },
   {
     "type": "objective",
-    "number": 10,
-    "question": "다음 중 자연어 처리 주요 언어 모델에 대한 설명으로 옳지 않은 것은 무엇인가?",
-    "choices": [
-      "BERT는 양방향 Encoder를 사용하며, 마스킹된 토큰을 예측하는 MLM(Masked Language Modeling)과 두 문장의 연속 관계를 맞히는 NSP(Next Sentence Prediction) 과제를 동시에 학습한다.",
-      "GPT-2는 단방향 Decoder 구조로, 다음 토큰 예측(Auto-Regressive Language Modeling)을 통해 사전학습된다.",
-      "RoBERTa는 원래 BERT의 NSP 과제를 삭제하고, 동적 마스킹·대용량 배치 등으로 학습 효율을 높였다.",
-      "ELECTRA는 Generator가 마스킹 토큰을 예측한 “가짜” 문장 전체를 생성하고, Discriminator가 문장 단위로 진짜/가짜를 판별하는 GAN 구조를 따른다.",
-      "T5 (Text-to-Text Transfer Transformer)는 입력과 출력을 모두 텍스트 시퀀스로 취급하여, 번역·요약·질의응답 등 다양한 작업을 “text-to-text” 형태로 통일한다."
-    ],
-    "textboxCount": 0
-  },
-  {
-    "type": "objective",
-    "number": 16,
+    "number": 11,
     "question": "[데이터 수집] 다음 중 AI 모델 학습을 위한 데이터 수집 시 개인정보 보호를 위한 조치로 가장 적절하지 않은 것을 고르시오.",
     "choices": [
         "민감 정보는 수집 전에 익명화하거나 가명처리한다.",
@@ -154,7 +141,7 @@
   },
   {
     "type": "objective",
-    "number": 17,
+    "number": 12,
     "question": "[데이터 수집] 다음 중 센서 기반 시계열 데이터를 수집할 때 발생할 수 있는 문제점으로 가장 적절한 것을 고르시오.",
     "choices": [
         "데이터가 항상 균일한 간격으로 수집된다.",
@@ -170,7 +157,7 @@
   },
   {
     "type": "objective",
-    "number": 18,
+    "number": 13,
     "question": "[데이터 정제] 다음 중 이상치(Outlier) 처리 방법으로 가장 적절하지 않은 것을 고르시오.",
     "choices": [
         "IQR 기반 필터링을 통해 극단값을 제거한다.",
@@ -186,7 +173,7 @@
   },
   {
     "type": "objective",
-    "number": 19,
+    "number": 14,
     "question": "다음 중 자연어 처리 주요 언어 모델에 대한 설명으로 옳지 않은 것은 무엇인가?",
     "choices": [
       "BERT는 양방향 Encoder를 사용하며, 마스킹된 토큰을 예측하는 MLM(Masked Language Modeling)과 두 문장의 연속 관계를 맞히는 NSP(Next Sentence Prediction) 과제를 동시에 학습한다.",
@@ -199,7 +186,7 @@
   },
   {
     "type": "objective",
-    "number": 20,
+    "number": 15,
     "question": "다음 중 자연어 처리 주요 언어 모델에 대한 설명으로 옳지 않은 것은 무엇인가?",
     "choices": [
       "BERT는 양방향 Encoder를 사용하며, 마스킹된 토큰을 예측하는 MLM(Masked Language Modeling)과 두 문장의 연속 관계를 맞히는 NSP(Next Sentence Prediction) 과제를 동시에 학습한다.",
